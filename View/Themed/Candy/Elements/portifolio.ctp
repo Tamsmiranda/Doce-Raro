@@ -10,7 +10,7 @@
 		</div>
 		<!--END: page title -->
 		<!-- BEGIN: portfolio filter -->
-		<div id="portfolio">
+		<div id="portfolioId">
 			<div id="portfolio-filter">
 				<ul>
 					<li>
