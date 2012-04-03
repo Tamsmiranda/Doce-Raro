@@ -11,7 +11,7 @@
 				<p>
 					Joomla é um sistema gerenciador de conteúdo, de código aberto, utilizado para publicar e gerenciar dados na internet ou em sistemas de intranet, e possui milhares de extensões para agregar funcionalidades específicas à sua solução.
 				</p>
-				<p>
+				<div>
 					<?php echo $this->Html->image('what_we_do/joomla.jpg',array('style'=>'float:left;'))
 					?>
 					<ul style="float:right" class="list">
@@ -31,14 +31,14 @@
 							Portais de comunidade
 						</li>
 					</ul>
-				</p>
+				</div>
 			</div>
 			<div class="slide">
 				<h2>Wordpress</h2>
 				<p>
 					O WordPress é uma plataforma semântica de vanguarda para publicação pessoal, com foco na estética, nos Padrões Web e na usabilidade. O WordPress é ao mesmo tempo um software livre e gratuito. Em outras palavras, o WordPress é o que você usa quando você quer trabalhar e não lutar com seu software de publicação de blogs.
 				</p>
-				<p>
+				<div>
 					<?php echo $this->Html->image('what_we_do/wordpress.jpg',array('style'=>'float:left;'))
 					?>
 					<ul style="float:right" class="list">
@@ -55,14 +55,14 @@
 							Sites institucionais
 						</li>
 					</ul>
-				</p>
+				</div>
 			</div>
 			<div class="slide">
 				<h2>CakePHP</h2>
 				<p>
 					O CakePHP é um framework escrito em PHP que permite o desenvolvimento de aplicações robustas e rápidas sem perder flexibilidade.
 				</p>
-				<p>
+				<div>
 					<?php echo $this->Html->image('what_we_do/cakephp.jpg',array('style'=>'float:left;'))
 					?>
 					<ul style="float:right" class="list">
@@ -79,7 +79,7 @@
 							Qualquer outro tipo de sistema...
 						</li>
 					</ul>
-				</p>
+				</div>
 			</div>
 		</div>
 	</div>
