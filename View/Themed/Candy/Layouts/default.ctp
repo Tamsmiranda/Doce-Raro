@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Doce Raro</title>
+		<meta charset="UTF-8">
 		<?php echo $this -> Html -> css('style');?>
 		<?php echo $this -> Html -> css('jquery.fancybox-1.3.4');?>
 		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css' />
@@ -43,7 +44,6 @@
 			})();
 
 		</script>
-		<meta charset="UTF-8">
 	</head>
 	<body>
 		<!-- BEGIN: content -->
