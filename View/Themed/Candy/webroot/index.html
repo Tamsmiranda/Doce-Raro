@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Lunar</title>
+   <link href="css/style.css" rel="stylesheet" type="text/css" />
+   <link href="css/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
+   <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css' />
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,800,800italic,600,600italic' rel='stylesheet' type='text/css'>
+   
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+   <script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
+   <script type="text/javascript" src="js/main.js"></script>
+   <script type="text/javascript" src="js/jquery.reveal.js"></script>
+   <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+   <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+   <script>
+    
+    $(window).load(function() {
+	checkPageHeight('home');
+	initCycle();
+});
+</script>
+
+<meta charset="UTF-8"></head>
+<body>
+
+<!-- BEGIN: content -->
+  <!-- BEGIN .header-bg -->
+  <div class="header-bg">
+    <div id="header">
+      <div class="wrapper clearfix">
+       <!-- BEGIN: logo -->
+       <a href="#home" id="logo"><img src="images/logo.png"  alt="Logo"></a><!-- END: logo -->
+       <!-- BEGIN: menu -->
+       <ul id="menu">
+        <li><a href="#home" class="nav_home current">home</a></li>
+        <li><a href="#about" class="nav_about">about</a></li>
+        <li><a href="#portfolio" class="nav_portfolio">portfolio</a></li>
+        <li><a href="#services" class="nav_services">services</a></li>
+        <li><a href="#contact" class="nav_contact">contact</a></li>
+      </ul><!-- END: menu -->
+    </div>
+  </div><!-- END: header -->
+  
+  <!-- BEGIN: home page -->
+  <div id="home" class="scrol-page">
+    <div class="wrapper">
+      <!-- BEGIN: slider -->
+      <div id="projects">
+        <div class="project-items">
+          <div class="project-item">
+            <div class="project-image slide1">
+              <div class="project-bar">
+                <div class="slide_title">
+                  <h1 class="font">Good designs come from the heart, not from the brain. </h1>
+                </div>
+                <div class="button"><a href="#" title="Lorem ipsum">Danny Sengers</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-image slide2">
+              <div class="project-bar">
+                <div class="slide_title">
+                  <h1 class="font">I don’t know the key to success, but the key to failure is trying to please everybody. </h1>
+                </div>
+                <div class="button"><a href="#" title="#">Bill Cosby</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-image slide3">
+              <div class="project-bar">
+                <div class="slide_title">
+                  <h1 class="font">Web design is art wrapped in technology.</h1>
+                </div>
+                <div class="button"><a href="#" title="#">James Weaver</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav"> <a href="#" class="prev" title="Prev slide"></a> <a href="#" class="next" title="Next slide"></a></div>
+      </div>
+      <!--SLIDE CONTAINER ENDS-->
+    </div>
+  </div>
+  <!-- END: slider -->
+  
+  <!-- BEGIN: home page -->
+  <div class="wrapper">
+    <div class="col_left" >
+      <div id="tj_container" class="tj_container">
+        <div class="tj_nav">
+          <span id="tj_prev" class="tj_prev">Previous</span>
+          <span id="tj_next" class="tj_next">Next</span>
+        </div>
+        
+        <div class="tj_wrapper">
+          <ul class="tj_gallery">
+            <li><a href="#"><span class="label-new"></span><img src="example/gallery/project_home_1.jpg" alt="" /></a></li>
+            <li><a href="#" ><img src="example/gallery/project_home_2.jpg" alt="" /></a></li>
+            <li><a href="#" ><img src="example/gallery/project_home_3.jpg" alt="" /></a></li>
+            <li><a href="#" ><img src="example/gallery/project_home_4.jpg" alt="" /></a></li>
+            <li><a href="#" ><img src="example/gallery/project_home_5.jpg" alt="" /></a></li>
+            <li><a href="#" ><img src="example/gallery/project_home_6.jpg" alt="" /></a></li>
+            <li><a href="#" ><span class="label-new"></span><img src="example/gallery/project_home_7.jpg" alt="" /></a></li>
+            <li><a href="#" ><img src="example/gallery/project_home_8.jpg" alt="" /></a></li>
+            <li><a href="#" ><img src="example/gallery/project_home_9.jpg" alt="" /></a></li>
+            <li><a href="#" ><img src="example/gallery/project_home_10.jpg" alt="" /></a></li>
+            <li><a href="#" ><img src="example/gallery/project_home_11.jpg" alt="" /></a></li>
+            <li><a href="#" ><span class="label-new"></span><img src="example/gallery/project_home_12.jpg" alt="" /></a></li>
+         </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col_right">
+      <h4>Featured work</h4>
+		<p>Lorem ipsum dolor sit amet, per te eros cetero, at debet causae fierent sed. Mea in nonumy cetero. Nam id homero latine.</p>
+        <p>Lorem ipsum dolor sit amet, per te eros cetero, at debet causae fierent sed. Mea in nonumy cetero. Nam id homero latine.</p>
+        <ul class="list">
+          <li>Sed ut ante id turpis semper eleifend.</li>
+          <li>Aliquam sodales sapien in metus gravida hendrerit.</li>
+          <li>Donec molestie faucibus mauris, ut lobortis lorem.</li>
+          <li>Proin hendrerit nunc at risus bibendum condimentum justo.</li>
+       </ul>
+       <p>Lorem ipsum dolor sit amet, per te eros cetero, at debet causae fierent sed. Mea in nonumy cetero. Nam id homero latine.</p>
+     </div>
+	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="js/jquery.gridnav.js"></script>
+	<script type="text/javascript" src="js/grid_function.js"></script>
+    <div class="clear"></div>
+   <!-- END: home page -->
+   
+   <div class="clear"></div>
+   <div class="space"></div>
+   
+   <!-- BEGIN: about page -->
+   <div id="about" class="scrol-page">
+     <div class="wrapper">
+     <!-- BEGIN: page title -->
+     <div class="page_title">
+       <h2>About</h2>
+       <p>Lorem ipsum dolor sit amet</p>
+     </div>
+     <!--END: page title -->
+     
+     <!-- BEGIN: about page -->
+     <div class="col-full">
+       <div class="one_fourth">
+         <img src="example/about_us.png" alt=""  class="simple_frame" />
+       </div><!--end one_fourth--> 
+       
+       <h4>Meet the Team</h4>
+       <div class="three_fourth last">
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a arcu non mi congue elementum. Suspendisse eu semper augue. Praesent luctus vehicula posuere. Cum sociis <a href="#">natoque penatibus  magnis</a> dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a arcu non mi congue elementum.</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a arcu non mi congue elementum. Suspendisse eu semper augue. Praesent luctus vehicula posuere. Cum sociis natoque penatibus et magnis dis <a href="#">parturient montes</a>, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a arcu non mi congue elementum.</p> 
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a arcu non mi congue elementum. Suspendisse eu semper augue. Praesent luctus vehicula posuere. Cum sociis <a href="#">natoque penatibus  magnis</a> dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a arcu non mi congue elementum.</p>
+       </div><!--end three_fourth-->
+     </div>
+   </div>
+   <div class="line-heading"></div>
+   
+   <div class="col-full">
+     <div class="one-two">
+       <div class="video-holder">
+       <span class="label-new"></span>
+       <iframe src="http://player.vimeo.com/video/24302498?title=0&amp;byline=0&amp;portrait=0" width="420" height="250" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><p><a href="http://vimeo.com/24302498">29 WAYS TO STAY CREATIVE</a> from <a href="http://vimeo.com/tofudesign">TO-FU</a> on <a href="http://vimeo.com/">Vimeo</a>.</p>
+       </div>
+     </div>
+     <div class="one-two last">
+     <h4>What we do</h4>
+     <p><strong>Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.</strong></p>
+     	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Donec ut volutpat metus. Aliquam tortor lorem, fringilla tempor dignissim at, pretium et arcu. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+        <ul class="list">
+          <li>Sed ut ante id turpis semper eleifend.</li>
+          <li>Aliquam sodales sapien in metus gravida hendrerit.</li>
+          <li>Donec molestie faucibus mauris, ut lobortis lorem scelerisque sollicitudin.</li>
+          <li>Proin hendrerit nunc at risus bibendum condimentum eget id justo.</li>
+        </ul>
+      </div>
+   </div>
+ </div>
+ </div><!-- END: about page -->
+  
+  <div class="clear"></div>
+  <div class="space"></div>
+   
+   <!-- BEGIN: portfolio page -->
+   <div id="portfolio" class="scrol-page">
+     <div class="wrapper">
+     <!-- BEGIN: page title -->
+     <div class="page_title">
+       <h2>Portfolio</h2>
+       <p>Lorem ipsum dolor sit amet</p>
+     </div>
+     <!--END: page title -->
+     
+     <!-- BEGIN: portfolio filter -->
+     <div id="portfolio">
+     
+       <div id="portfolio-filter">
+       <ul>
+          <li><a class="" href="#all">All</a></li>
+          <li><a class="" href="#Web">Web Design </a></li>
+          <li><a class="" href="#Logo">Logo &amp; Branding </a></li>
+          <li><a class="" href="#Print">Print</a></li>
+          <li><a class="last" href="#Video">Video</a></li>
+      </ul><!--END ul-->
+    </div><!--END ul gallery-filter-->
+    <div class="clear"></div>
+    
+    <!-- BEGIN: Portfolio -->
+      <div id="portfolio_box">
+       <ul>
+          <li class="Web">
+          <a href="example/large_image.jpg" class="iframe" data-id="fancybox-portfolio"><img src="example/portfolio1.png" alt="#" /></a>
+          <div class="project_info">
+            <h2>Text goes here 1</h2>
+            <h3>Web Design</h3>
+            <a href="#" class="info_button" data-reveal-id="myModal"></a>	
+          </div>
+         </li>
+         <li class="Logo">
+         <a href="example/large_image.jpg" class="iframe" data-id="fancybox-portfolio"><img src="example/portfolio2.png" alt="#" /></a>
+         <div class="project_info">
+           <h2>Text goes here 2</h2>
+           <h3>Logo &amp; Branding</h3>
+           <a href="#" class="info_button" data-reveal-id="myModal"></a>	
+         </div>
+         </li>
+         <li class="Web">
+          <a href="example/large_image.jpg" class="iframe" data-id="fancybox-portfolio"><img src="example/portfolio3.png" alt="#" /></a>
+          <div class="project_info">
+            <h2>Text goes here 3</h2>
+            <h3>Web Design</h3>
+            <a href="#" class="info_button" data-reveal-id="myModal"></a>	
+          </div>
+         </li>
+         <li class="Logo">
+         <a href="example/large_image.jpg" class="iframe" data-id="fancybox-portfolio"><img src="example/portfolio4.png" alt="#" /></a>
+         <div class="project_info">
+           <h2>Text goes here 4</h2>
+           <h3>Logo &amp; Branding</h3>
+           <a href="#" class="info_button" data-reveal-id="myModal"></a>	
+         </div>
+         </li>
+         <li class="Print">
+          <a href="example/large_image.jpg" class="iframe" data-id="fancybox-portfolio"><img src="example/portfolio5.png" alt="#" /></a>
+          <div class="project_info">
+            <h2>Text goes here 5</h2>
+            <h3>Print</h3>
+            <a href="#" class="info_button" data-reveal-id="myModal"></a>	
+          </div>
+         </li>
+         <li class="Video">
+         <a href="http://player.vimeo.com/video/24302498" class="iframe" data-id="fancybox-portfolio"><img src="example/portfolio6.png" alt="#" /></a>
+         <div class="project_info">
+           <h2>Text goes here 6</h2>
+           <h3>Video</h3>
+           <a href="#" class="info_button" data-reveal-id="myModal"></a>	
+         </div>
+         </li>
+         <li class="Video">
+          <a href="http://www.youtube.com/embed/gmKXRUX5s1Y" class="iframe" data-id="fancybox-portfolio"><img src="example/portfolio7.png" alt="#" /></a>
+          <div class="project_info">
+            <h2>Text goes here 7</h2>
+            <h3>Video</h3>
+            <a href="#" class="info_button" data-reveal-id="myModal"></a>	
+          </div>
+         </li>
+         <li class="Video">
+         <a href="http://www.youtube.com/embed/X5BmzNH6lIg" class="iframe" data-id="fancybox-portfolio"><img src="example/portfolio8.png" alt="#" /></a>
+         <div class="project_info">
+           <h2>Text goes here 8</h2>
+           <h3>Video</h3>
+           <a href="#" class="info_button" data-reveal-id="myModal"></a>	
+         </div>
+         </li>
+         </ul><!--END ul-->
+       </div><!--END portfolio_box-->
+       <br class="clear"/>
+       <div class="pager">
+       <ul>
+          <li><a href="#">&#171;</a></li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">&#187;</a></li>
+       </ul>
+     </div>
+   </div>
+ </div>
+ <div id="myModal" class="reveal-modal">
+   <h4>Your portfolio info goes here</h4>
+   <p>Aliquam rhoncus metus eget lorem hendrerit sit amet fringilla tellus aliquam. Phasellus volutpat ipsum eget tellus dapibus adipiscing. Aenean mi lorem, viverra iaculis sagittis ut, suscipit a mi. Aliquam semper vehicula tempor. Donec felis urna, tempor vel pellentesque quis, aliquet nec lacus. Vestibulum orci nisi, congue at consequat et, facilisis vel felis. Morbi ac varius tortor. Curabitur ut orci eros. Cras fringilla urna in justo luctus ornare. Mauris in lectus sapien. Nulla facilisi. Maecenas placerat iaculis erat, at pulvinar velit sagittis nec. Nam sed urna purus. Nulla sollicitudin pretium volutpat. Suspendisse quis ante et mauris tempor tempus.
+
+Etiam ut erat enim. Nam vel nisl augue, bibendum interdum est. Quisque et sapien erat, vel laoreet lacus. Proin porta, sem vel sollicitudin fermentum, tellus metus auctor dui, ultrices malesuada ligula leo eu mauris. Aliquam et nulla eget lectus consectetur auctor vel sit amet dui. Vivamus accumsan vestibulum nisi id malesuada. Sed sit amet elit quis erat consequat viverra. Phasellus quis purus eget diam semper condimentum sed quis lorem. Aliquam euismod gravida sapien, id tincidunt lorem consectetur eu. Etiam pulvinar scelerisque nunc at gravida.</p>
+  <a class="close-reveal-modal">&#215;</a>
+  </div>
+</div> <!-- end PORTFOLIO -->
+
+   <div class="clear"></div>
+   <div class="space"></div>
+
+   <!-- BEGIN: gallery page -->
+    <div id="services" class="scrol-page">
+      <div class="wrapper">
+      <!-- BEGIN: page title -->
+      <div class="page_title">
+         <h2>Services</h2>
+         <p>Lorem ipsum dolor sit amet</p>
+      </div>
+      <!--END: page title -->
+      <!-- BEGIN: Services -->
+       	<div class="one-third">
+        	<div class="s-block">
+                <img src="images/icons/icon1.png" alt="icon" class="center">
+                <h2>Services No. 1</h2>
+                <h3 class="center">Email:Support@Envato.com</h3>
+                <p class="center">Vivamus soder pharetra libero atincidunt, nisi condimentum Quisque non sodales nislero.</p>
+            </div>
+        </div>
+        
+        <div class="one-third">
+        	<div class="s-block">
+                <img src="images/icons/icon2.png" alt="icon" class="center">
+                <h2>Services No. 2</h2>
+                <h3 class="center">Email:Support@Envato.com</h3>
+                <p class="center">Vivamus soder pharetra libero atincidunt, nisi condimentum Quisque non sodales nislero.</p>
+            </div>
+        </div>
+        
+        <div class="one-third last">
+        	<div class="s-block">
+                <img src="images/icons/icon3.png" alt="icon" class="center">
+                <h2>Services No. 3</h2>
+                <h3 class="center">Email:Support@Envato.com</h3>
+                <p class="center">Vivamus soder pharetra libero atincidunt, nisi condimentum Quisque non sodales nislero.</p>
+            </div>
+        </div>
+        
+        <div class="clear"></div>
+        <div class="spacer"></div>
+        
+        <div class="one-third">
+        	<div class="s-block">
+                <img src="images/icons/icon4.png" alt="icon" class="center">
+                <h2>Services No. 4</h2>
+                <h3 class="center">Email:Support@Envato.com</h3>
+                <p class="center">Vivamus soder pharetra libero atincidunt, nisi condimentum Quisque non sodales nislero.</p>
+            </div>
+        </div>
+        
+        <div class="one-third">
+        	<div class="s-block">
+                <img src="images/icons/icon5.png" alt="icon" class="center">
+                <h2>Services No. 5</h2>
+                <h3 class="center">Email:Support@Envato.com</h3>
+                <p class="center">Vivamus soder pharetra libero atincidunt, nisi condimentum Quisque non sodales nislero.</p>
+            </div>
+        </div>
+        
+        <div class="one-third last">
+        	<div class="s-block">
+                <img src="images/icons/icon6.png" alt="icon" class="center">
+                <h2>Services No. 6</h2>
+                <h3 class="center">Email:Support@Envato.com</h3>
+                <p class="center">Vivamus soder pharetra libero atincidunt, nisi condimentum Quisque non sodales nislero.</p>
+            </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div><!-- END: services page --> 
+    
+    <div class="clear"></div>
+    <div class="space"></div>
+   
+   
+   
+   <!-- BEGIN: contact page -->
+    <div id="contact" class="scrol-page">
+    	<div class="wrapper">
+        <!-- BEGIN: page title -->
+     <div class="page_title">
+       <h2>Contact</h2>
+       <p>Lorem ipsum dolor sit amet</p>
+     </div>
+     <!--END: page title -->
+        
+       <!-- BEGIN: Contact Form -->
+        <div class="one-two">
+          <div class="contact-form">
+            <form action="http://pulsecolor.in.rs/mojo_themes/Lunar/html/send.php" id="contact_form" method="post"><br /><br />
+            <ul>
+              <li>
+                 <p class="text">Name <span class="required">required</span></p>
+                 <input type="text" name="name" id="name" value="" class="requiredField" />
+              </li>
+                 <li>
+                 <p class="text">Email <span class="required">required</span></p>
+                 <input type="text" name="email" id="email" value="" class="requiredField email" />
+                 </li>
+                 <li>
+                 <p class="text">Phone</p>
+                 <input type="text" name="phone" id="phone" value="" class="requiredField phone" />
+                 </li>
+                 <li class="textarea">
+                 <p class="text">Message <span class="required">required</span></p>
+                 <textarea name="message" id="message" rows="20" cols="30" class="requiredField"></textarea>
+                 </li>
+                 <li class="button"><input name="submitted" id="submitted" value="Submit" class="submit" type="submit" /></li>
+              </ul><!--END ul-->
+			</form><!--END form ID contact_form-->
+          </div><!-- END: Contact Form -->
+          </div>
+      
+            <!-- BEGIN: Map -->
+            <div class="one-two last">
+            <div class="map">
+               <iframe width="448" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Serbia,+Belgrade,+Central+Serbia&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=30.185946,86.572266&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=Belgrade,+City+of+Belgrade,+Central+Serbia,+Serbia&amp;t=h&amp;ll=44.802301,20.466156&amp;spn=0.243602,0.613861&amp;z=10&amp;iwloc=A&amp;output=embed"></iframe></div>
+               <div class="contact-information">
+                 <ul>
+                    <li class="address"><strong>Address:</strong> Street 9890, New Something 1234, Country</li>
+                    <li class="phone"><strong>Phone:</strong> + 1 800 559 6580</li>
+                    <li class="email"><strong>Email:</strong> <a href="mailto:info@lunar.com">info@lunar.com</a></li>
+                </ul><!--END ul-->
+             </div><!--END contact-information-->
+           </div>
+      </div>
+    </div><!-- END: Contact Page -->
+     
+     <!-- Start Footer  -->
+     <div class="footer_full">
+       <div id="footer">
+         <div class="copy">
+           <p>Copyright &copy; 2012  &bull;  Lunar  &bull;  All rights reserved</p>
+           <p class="developed_by">Design By: <a href="#">Pulsecolor</a></p>
+         </div>
+         <ul class="social">
+          <li><a href="#"><img src="images/icons/linkedin.png" alt="Linkedin"/></a></li>
+          <li><a href="#"><img src="images/icons/dribbble.png" alt="Dribbble"/></a></li>
+          <li><a href="#"><img src="images/icons/skype.png" alt="Skype"/></a></li>
+          <li><a href="#"><img src="images/icons/twitter.png" alt="Twitter"/></a></li>
+          <li><a href="#"><img src="images/icons/vimeo.png" alt="Vimeo"/></a></li>
+       </ul>
+       <div class="clear"></div>
+     </div>
+   </div>
+ </div>
+ </div>
+ <!-- End Footer  -->
+
+</body>
+</html>

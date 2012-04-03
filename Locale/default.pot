@@ -1,0 +1,49 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2012-03-29 23:12-0300\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/ContactsController.php:40
+msgid "The contact could not be send. Please, try again."
+msgstr ""
+
+#: View/Contacts/send.ctp:15
+#: View/Themed/Candy/Elements/contact.ctp:25
+msgid "Submit"
+msgstr ""
+
+#: View/Themed/Candy/Layouts/page.ctp:49
+msgid "Home"
+msgstr ""
+
+#: View/Themed/Candy/Layouts/page.ctp:50
+msgid "Sobre"
+msgstr ""
+
+#: View/Themed/Candy/Layouts/page.ctp:51
+msgid "Portfólio"
+msgstr ""
+
+#: View/Themed/Candy/Layouts/page.ctp:52
+msgid "Serviços"
+msgstr ""
+
+#: View/Themed/Candy/Layouts/page.ctp:53
+msgid "Contato"
+msgstr ""
+
+#: Model/Contact.php:validation for field name;validation for field email;validation for field phone
+msgid "Your custom message here"
+msgstr ""
+
