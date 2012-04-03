@@ -21,28 +21,6 @@
 					<?php echo $this -> Form -> input('message', array('type' => 'textarea'));?>
 				</fieldset>
 				<?php echo $this -> Form -> end(__('Submit'));?>
-
-				<!--<form action="http://pulsecolor.in.rs/mojo_themes/Lunar/html/send.php" id="contact_form" method="post"><br /><br />
-				<ul>
-				<li>
-				<p class="text">Name <span class="required">required</span></p>
-				<input type="text" name="name" id="name" value="" class="requiredField" />
-				</li>
-				<li>
-				<p class="text">Email <span class="required">required</span></p>
-				<input type="text" name="email" id="email" value="" class="requiredField email" />
-				</li>
-				<li>
-				<p class="text">Phone</p>
-				<input type="text" name="phone" id="phone" value="" class="requiredField phone" />
-				</li>
-				<li class="textarea">
-				<p class="text">Message <span class="required">required</span></p>
-				<textarea name="message" id="message" rows="20" cols="30" class="requiredField"></textarea>
-				</li>
-				<li class="button"><input name="submitted" id="submitted" value="Submit" class="submit" type="submit" /></li>
-				</ul>--><!--END ul-->
-				<!--</form>--><!--END form ID contact_form-->
 			</div>
 			<!-- END: Contact Form -->
 		</div>
@@ -62,4 +40,5 @@
 			</div><!--END contact-information-->
 		</div>
 	</div>
-</div><!-- END: Contact Page -->
+</div>
+<!-- END: Contact Page -->

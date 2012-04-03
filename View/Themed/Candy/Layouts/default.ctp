@@ -16,11 +16,11 @@
 
 		<?php echo $this -> Html -> meta('icon');
 
-		//echo $this->Html->css('cake.generic');
+	//echo $this->Html->css('cake.generic');
 
-		echo $this -> fetch('meta');
-		echo $this -> fetch('css');
-		echo $this -> fetch('script');
+	echo $this -> fetch('meta');
+	echo $this -> fetch('css');
+	echo $this -> fetch('script');
 		?>
 		<script>
 			$(window).load(function() {
@@ -33,8 +33,7 @@
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-6377030-10']);
 			_gaq.push(['_setDomainName', 'doceraro.com.br']);
-			_gaq.push(['_trackPageview']);
-			(function() {
+			_gaq.push(['_trackPageview']); (function() {
 				var ga = document.createElement('script');
 				ga.type = 'text/javascript';
 				ga.async = true;
@@ -72,31 +71,31 @@
 						</li>
 					</ul><!-- END: menu -->
 				</div>
-			</div><!-- END: header -->
-			<!-- BEGIN: home page -->
-			<div id="home" class="scrol-page">
-				<div class="wrapper">
-					<?php echo $this -> element('slider', array('cache' => true));?>
-				</div>
 			</div>
-			<!-- END: slider -->
-			<!-- BEGIN: home page -->
+		</div><!-- END: header -->
+		<!-- BEGIN: home page -->
+		<div id="home" class="scrol-page">
 			<div class="wrapper">
-				<?php echo $this -> element('featured', array('cache' => true));?>
-				<div class="clear"></div>
-				<div class="space"></div>
-				<?php echo $this -> element('about_us', array('cache' => true));?>
-				<div class="clear"></div>
-				<div class="space"></div>
-				<?php echo $this -> element('portifolio', array('cache' => true));?>
-				<div class="clear"></div>
-				<div class="space"></div>
-				<?php echo $this -> element('services', array('cache' => true));?>
-				<div class="clear"></div>
-				<div class="space"></div>
-				<?php echo $this -> element('contact', array('cache' => true));?>
-				<?php echo $this -> element('footer', array('cache' => true));?>
+				<?php echo $this -> element('slider', array('cache' => true));?>
 			</div>
+		</div>
+		<!-- END: slider -->
+		<!-- BEGIN: home page -->
+		<div class="wrapper">
+			<?php echo $this -> element('featured', array('cache' => true));?>
+			<div class="clear"></div>
+			<div class="space"></div>
+			<?php echo $this -> element('about_us', array('cache' => true));?>
+			<div class="clear"></div>
+			<div class="space"></div>
+			<?php echo $this -> element('portifolio', array('cache' => true));?>
+			<div class="clear"></div>
+			<div class="space"></div>
+			<?php echo $this -> element('services', array('cache' => true));?>
+			<div class="clear"></div>
+			<div class="space"></div>
+			<?php echo $this -> element('contact', array('cache' => true));?>
+			<?php echo $this -> element('footer', array('cache' => true));?>
 		</div>
 		<!-- End Footer  -->
 	</body>
