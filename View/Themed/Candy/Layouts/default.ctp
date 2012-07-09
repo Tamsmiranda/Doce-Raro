@@ -82,21 +82,9 @@
 		<!-- END: slider -->
 		<!-- BEGIN: home page -->
 		<div class="wrapper">
-			<?php echo $this -> element('featured', array('cache' => true));?>
-			<div class="clear"></div>
-			<div class="space"></div>
-			<?php echo $this -> element('about_us', array('cache' => true));?>
-			<div class="clear"></div>
-			<div class="space"></div>
-			<?php echo $this -> element('portifolio', array('cache' => true));?>
-			<div class="clear"></div>
-			<div class="space"></div>
-			<?php echo $this -> element('services', array('cache' => true));?>
-			<div class="clear"></div>
-			<div class="space"></div>
-			<?php echo $this -> element('contact', array('cache' => true));?>
-			<?php echo $this -> element('footer', array('cache' => true));?>
+			<?php echo $this->fetch('content'); ?>
 		</div>
+		<?php echo $this -> element('footer', array('cache' => true));?>
 		<!-- End Footer  -->
 	</body>
 </html>

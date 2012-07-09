@@ -22,13 +22,6 @@ class ContactsController extends AppController {
 				$this->Email->from = $this->request->data['Contact']['name'] . '<' . $this->request->data['Contact']['email'] .'>';
 				$this->Email->to = 'tamsmiranda@gmail.com';
 				$this->Email->subject = 'Contato';
-				/*$this->Email->smtpOptions = array(
-					'port'=>'25',
-					'timeout'=>'60',
-					'host' => 'mail.doceraro.com.br',
-					'username'=>'contato@doceraro.com.br',
-					'password'=>'%hQ3b$c0Aml-',
-				);*/
 				$this->Email->sendAs = 'both';
 				if ($this->Email->send($this->request->data['Contact']['message'] . $this->request->data['Contact']['phone'])) {
 					$this->redirect(array('controller' => 'Contacts', 'action' => 'tanks'));

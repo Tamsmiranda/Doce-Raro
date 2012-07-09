@@ -6,7 +6,7 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => '0r0l1x',
+		'password' => '',
 		'database' => 'doceraro',
 	);
 }
